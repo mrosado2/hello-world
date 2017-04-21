@@ -53,14 +53,23 @@
 		<style type="text/css">
 			<body>
 
-
 		</style>
 	</head>
 
-
 	<div class="container">
-		<div class="row">
-			<div class="col-sm-offset-3 col-sm-8">
+		<div class="wrapper">
+			<h1>Reports</h1>
+			</div>
+			<div class="data">
+				<form action="index.php" method="POST">
+					<select name"application cohort">
+					<option>Select</option>
+					<option>Cohort Id</option>
+					<option>Application Id</option>
+					<option>Cohort By Cohort Id</option>
+					</select>
+				</form>
+				<select name=""></select>
 				<h1>ingenuity</h1>
 				<p>This is a test</p>
 				<form>
